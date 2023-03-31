@@ -19,6 +19,10 @@ public class TodoCrudControllers {
     private TodoRepository todoRepository;
     private TodoServices services;
 
+    @GetMapping("/")
+    public String test() {
+        return "hello world service";
+    }
 
     //create
     @PostMapping("/todos")

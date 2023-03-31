@@ -19,6 +19,10 @@ public class UserCrudControllers {
     @Autowired
     private UserService userService;
 
+    @GetMapping("/")
+    public String test() {
+        return "hello world service";
+    }
 
     //create
     @PostMapping("/user")

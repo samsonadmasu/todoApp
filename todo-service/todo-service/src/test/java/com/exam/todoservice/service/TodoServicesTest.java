@@ -18,9 +18,6 @@ class TodoServicesTest {
     @Autowired
     private TodoRepository todoRepository;
 
-//    @Autowired
-//    private TodoServices todoServices;
-
     @Test
     void createTodos() {
         Todo todo = new Todo("name", "description", 1);
