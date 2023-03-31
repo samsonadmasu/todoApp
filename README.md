@@ -4,6 +4,8 @@
 Build a Todo Microservices Application
 ### Prerequisites
 
+#### currently api-gate way and discovery service needs some cleanup
+
 - Java 17
 - Spring Boot
 - Spring Cloud
